@@ -3,8 +3,8 @@ import requests
 import pprint
 
 cloudflare_api = "https://api.cloudflare.com/client/v4/"
-zone_id = "4039853908f53d3345344c3d4d634534557f8e2a"
-api_token = "Bearer 234Yht1kn4y234DOh2qoJG32342alx2342lK0C2342kgNL2342"
+zone_id = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+api_token = "Bearer YYYYYYYYYYYYYYYYYYYYYYYYYYYY"
 headers = {'Authorization': api_token, 'Content-Type':'application/json'}
 
 cloudflare_dns = cloudflare_api + "zones/" + zone_id + "/dns_records"  
