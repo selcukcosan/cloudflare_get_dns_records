@@ -6,7 +6,7 @@ from datetime import datetime
 today = datetime.now()
 datetimenow = today.strftime('%Y-%m-%d-%H%M%S')
 zone_name= "domainname.com"
-export_filename = "./cision_cloudflare_dns_records-export-"+zone_name+"-"+datetimenow+".json"
+export_filename = "./cloudflare_dns_records-export-"+zone_name+"-"+datetimenow+".json"
 
 cloudflare_api = "https://api.cloudflare.com/client/v4/"
 
